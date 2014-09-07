@@ -1,0 +1,8 @@
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\bin\Forms.dll
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\bin\Forms.pdb
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\bin\Forms.xml
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\obj\Debug\Forms.Resources.resources
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\obj\Debug\Forms.vbproj.GenerateResource.Cache
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\obj\Debug\Forms.dll
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\obj\Debug\Forms.xml
+D:\Bojko\Soft\HTML basic\4. Forms\HTML - Forms - Homework\Forms\obj\Debug\Forms.pdb

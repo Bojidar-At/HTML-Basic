@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FakeBook Registration menu</title>
+    <style>
+        body {
+            background-color: #3b5997;
+            color:white;
+            width:850px;
+        }
+        header{
+            align-content:center;
+        }
+        h1{
+           text-align:center;
+           font-family:Arial;
+           font-size:xx-large;
+        }
+        h2 {
+            text-align: center;
+            font-family: Arial;
+            font-size: large;
+        }
+        .nonImport{
+            width:350px; 
+            position:relative;
+            margin:initial;   
+            padding:15px;        
+        }
+        .Important {
+            width: 450px;
+            position: absolute;
+            left:400px;
+            top:305px;
+        }
+        input, textarea {
+            border-bottom-color: #b3b3b3;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-left-color: #b3b3b3;
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-right-color: #b3b3b3;
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-top-color: #b3b3b3;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            border-top-style: solid;
+            border-top-width: 1px;           
+        }
+        fieldset {
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+        }
+        .Clear {
+            width: 350px;
+            height: 45px;
+            margin-top: 15px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            color: #3b5997;
+            font-size:large;
+        }
+        .Register {
+            width: 500px;
+            height: 45px;
+            margin-top: 15px;
+           
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            color: #3b5997;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="FakebookLogo.png" alt="Fakebook Logo">
+    </header>
+    <aside>
+        <h1>
+            Registration
+        </h1>
+        <h2>
+            It is safe and it is always be!
+        </h2>
+        <div class="nonImport">
+            <form method="get">
+                <fieldset>
+                    <legend style="text-align:center"><strong> Information</strong></legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" name="firstName" placeholder="First Name" />
+                            </td>
+                            <td>
+                                <input type="text" name="lastName" placeholder="Last Name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" name="email" placeholder="Your Email" required="required" title="Въвеждаш кофти мейл!" />
+                            </td>
+                            <td>
+                                <input type="tel" name="tel" placeholder="Phone Number" required="required" title="Въвеждаш кофти телефон!" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" name="pass" placeholder="Your Password" required="required" />
+                            </td>
+                            <td>
+                                <input type="url" name="url" placeholder="Website" required="required">
+                            </td>
+                        </tr>
+                    </table>
+
+                    <span>Birthday</span>
+                    <br />
+                    <input type="date" name="birthday" min="1900" max="2014" />
+                    <br />
+                    <input type="radio" name="sex" id="sex1" />
+                    <label for="sex1">Male</label>
+                    <input type="radio" name="sex" id="sex2" />
+                    <label for="sex2">Female</label>
+                    <input type="radio" name="sex" id="sex3" />
+                    <label for="sex3">Other</label>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+
+
+                </fieldset>
+
+                <input class="Clear" type="reset" name="Clear" value="Clear Form" />
+            </form>
+        </div>
+        <div class="Important">
+            <form method="get">
+                <fieldset>
+                    <legend style="text-align:center"><strong>Important Information *reqired</strong></legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="country">
+                                    <select name="country" id="country" autofocus="autofocus" required="required">
+                                        <option value="Country" selected="selected">Страна</option>
+                                        <option value="BG">България</option>
+                                        <option value="Alb">Албания</option>
+                                        <option value="PHD">Пакистан</option>
+                                    </select>
+                                </label>
+                            </td>
+                            <td>
+                                <input type="text" name="vil" placeholder="Village" required="required" autocomplete="on" tabindex="1" />
+                            </td>
+                            <td>
+                                <input type="text" name="dis" placeholder="District" required="required" autocomplete="on" tabindex="1" />
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td>
+                                <input type="text" name="street" placeholder="Street" required="required" autocomplete="on" tabindex="4" /> <!-- Нарочно съм сложил такъв таб индекс-->
+                            </td>
+                            <td colspan="2">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input type="text" name="street" placeholder="Nr" required="required" autocomplete="on" tabindex="3" style="max-width:50px"/>
+                                        </td>
+                                        <td>
+                                            <input type="text" name="street" placeholder="Floor" required="required" autocomplete="on" tabindex="2" style="max-width:50px" />
+                                        </td>
+                                        <td>
+                                            <input type="text" name="street" placeholder="Ap Nr" required="required" autocomplete="on" tabindex="5" style="max-width:50px" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>                                
+                        </tr>
+                        <tr>
+                            <td>
+                                Door color
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="color" name="doorColor"/>
+                            </td>
+                            <td>
+                                <input type="text" name="waterMeter" placeholder="Water Meter Nr" required="required" autocomplete="on" tabindex="6"/>
+                            </td>
+                            <td>
+                                <label for="pantie" tabindex="7">
+                                    <select name="pantie" id="pantie" autofocus="autofocus" required="required" tabindex="7">
+                                        <option value="pantie" selected="selected">Aunt Pantie`s Size</option>
+                                        <option value="1">XXL</option>
+                                        <option value="2">XXXL</option>
+                                        <option value="3">XXXXXL</option>
+                                    </select>
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">More Personal Information</td>
+                        </tr>                        
+                    </table>
+                    <textarea name="info" rows="4" cols="55" placeholder="Give Us More Information !!!">
+                    </textarea>
+                </fieldset>
+                <input class="Register" type="submit" name="submit" value="Register" />
+            </form>
+        </div>
+    </aside>
+
+</body>
+</html>

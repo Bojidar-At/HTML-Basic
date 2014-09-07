@@ -1,0 +1,5 @@
+D:\Bojko\Soft\HTML basic\6.CSS basic\homework\CSSBasic\bin\CSSBasic.dll
+D:\Bojko\Soft\HTML basic\6.CSS basic\homework\CSSBasic\bin\CSSBasic.pdb
+D:\Bojko\Soft\HTML basic\6.CSS basic\homework\CSSBasic\obj\Debug\CSSBasic.csprojResolveAssemblyReference.cache
+D:\Bojko\Soft\HTML basic\6.CSS basic\homework\CSSBasic\obj\Debug\CSSBasic.dll
+D:\Bojko\Soft\HTML basic\6.CSS basic\homework\CSSBasic\obj\Debug\CSSBasic.pdb

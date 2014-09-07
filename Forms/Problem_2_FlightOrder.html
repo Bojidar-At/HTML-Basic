@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Flight Order</title>
+    <style>
+        .base{
+            width:300px;
+            background-color:pink;
+        }
+        td{
+            font-family:Arial;
+            font-style:italic;
+            font-size:x-small;
+            width:50%;
+        }
+       
+    </style>
+</head>
+<body>
+    <form method="delete">
+        <table class="base">
+            <tr>
+                <th colspan="2">
+                    FLIGHT ORDER
+                </th>
+            </tr>
+            <tr>
+                <td>From</td>
+                <td>To</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="city" id="city" autofocus="autofocus">
+                        <option value="empty" selected="selected">enter a city</option>
+                        <option value="SF">Sofia</option>
+                        <option value="MO">Moscow</option>
+                        <option value="LA">Los Angeles</option>
+                        <option value="LON">London</option>
+                    </select>
+                </td>
+                <td>
+                    <select name="city" id="city" autofocus="autofocus">
+                        <option value="empty" selected="selected">enter a city</option>
+                        <option value="SF">Sofia</option>
+                        <option value="MO">Moscow</option>
+                        <option value="LA">Los Angeles</option>
+                        <option value="LON">London</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input name="gender" type="checkbox" id="gm" value="male" />
+                    <label class="inline" for="gm">Prefer directs</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Departure Date
+                </td>
+                <td>
+                    Time Interval
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" name="date" id="date" placeholder="dd.mm.yyyy" />
+                </td>
+                <td>
+                    <table class="time">
+                        <tr>
+                            <td>
+                                <input type="time" name="timeFrom" placeholder="hh:mm" style="width: 75px" />
+                            </td>
+                            <td>
+                                <input type="time" name="timeTo" placeholder="hh:mm" style="width: 75px" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Return Date
+                </td>
+                <td>
+                    Time Interval
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" name="date" id="date" placeholder="dd.mm.yyyy" />
+                </td>
+                <td>
+                    <table class="time">
+                        <tr>
+                            <td>
+                                <input type="time" name="timeFrom" placeholder="hh:mm" style="width: 75px" />
+                            </td>
+                            <td>
+                                <input type="time" name="timeTo" placeholder="hh:mm" style="width: 75px" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                12+
+                            </td>
+                            <td>
+                                2-12
+                            </td>
+                            <td>
+                                0-2
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    Choose class
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="number" min="13" name="firstNumber" style="width: 40px" />
+                            </td>
+                            <td>
+                                <input type="number" min="3" max="12" name="secondNumber" style="width: 40px" />
+                            </td>
+                            <td>
+                                <input type="number" min="0" max="2" name="thirdNumber" style="width: 40px" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <select name="class" id="class" required="required">
+                        <option value="empty" selected="selected">Economy</option>
+                        <option value="SF">Standart</option>
+                        <option value="MO">Business</option>
+                        <option value="LA">Mega VIP Private LUX</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="Search" value="Search" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
